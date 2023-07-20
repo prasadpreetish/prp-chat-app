@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.joinchat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  width: 50%;
+}
+.joinchat-container h3{
+  font-size: 2.5rem;
+}
+.joinchat-container input{
+  margin: 1rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.joinchat-container button{
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 95%;
+  margin: 1rem auto;
+}
+.chat-page {
+  width: 100%;
+}
+.chat-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.chat-body {
+  min-height: 75vh;
+  margin-bottom: -4.5vh;
+}
+.send-chat-btn{
+  cursor: pointer;
+  margin: 0.5rem 0 0 0;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  background-color: rgb(20, 100, 0);
+  border: none;
+  border-radius: 1%;
+}
+.dialog-box {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+}
+.dialog-container {
+  font-size: 1.2rem;
+  color: black;
+  padding: 1rem;
+}
+.dialog-container img{
+  width: 100%;
+}
+.dialog-details {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  align-items: center;
+}
+.dialog-author{
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+.chat-footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.forviewonly{
+  margin-top: 12rem;
+}
